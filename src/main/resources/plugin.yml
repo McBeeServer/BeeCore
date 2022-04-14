@@ -1,0 +1,12 @@
+name: BeeCore
+version: '${project.version}'
+main: net.acticraft.plugin.beecore.BeeCore
+api-version: 1.18
+authors: [ PxLib ]
+commands:
+  fly:
+  gmc:
+  gms:
+  gmsp:
+  night:
+  day:
