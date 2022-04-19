@@ -10,3 +10,6 @@ commands:
   gmsp:
   night:
   day:
+  pl:
+    aliases: [plugin, plugins,minecraft:plugin]
+

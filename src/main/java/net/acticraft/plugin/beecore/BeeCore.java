@@ -32,6 +32,7 @@ public final class BeeCore extends JavaPlugin {
         getCommand("fly").setExecutor(new FlyCommand());
         getCommand("day").setExecutor(new DayCommand());
         getCommand("night").setExecutor(new NightCommand());
+        getCommand("pl").setExecutor(new PluginsCommand());
 
 
         // Load Listeners

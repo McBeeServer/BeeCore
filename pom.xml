@@ -6,7 +6,7 @@
 
     <groupId>net.acticraft.plugin</groupId>
     <artifactId>BeeCore</artifactId>
-    <version>0.0.01</version>
+    <version>0.0.02</version>
     <packaging>jar</packaging>
 
     <name>BeeCore</name>
