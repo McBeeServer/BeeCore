@@ -11,5 +11,5 @@ commands:
   night:
   day:
   pl:
-    aliases: [plugin, plugins,minecraft:plugin]
+    aliases: [plugin]
 

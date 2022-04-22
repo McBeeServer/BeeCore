@@ -45,8 +45,6 @@ public final class BeeCore extends JavaPlugin {
         File co = new File(getDataFolder(), "config.yml");
         if(!co.exists()) saveResource("config.yml", false);
 
-        File sb = new File(getDataFolder(), "scoreboard.yml");
-        if(!sb.exists()) saveResource("scoreboard.yml", false);
 
         try{
             this.conf.load(co);
@@ -54,11 +52,6 @@ public final class BeeCore extends JavaPlugin {
             e.printStackTrace();
         }
 
-        try{
-            this.conf.load(sb);
-        } catch (IOException | InvalidConfigurationException e) {
-            e.printStackTrace();
-        }
 
     }
 

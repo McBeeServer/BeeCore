@@ -12,7 +12,7 @@ public class ChatSystem implements Listener {
 
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onPlayerPlaceholderChat(AsyncPlayerChatEvent event){
-        String format = ChatColorUtils.toHex(ChatColorUtils.color(PlaceholderAPI.setPlaceholders(event.getPlayer(), BeeCore.getInstance().getConf().getString("format", "&7{display_name} &7> {message}").replace("{name}", event.getPlayer().getName()).replace("{display_name}" ,event.getPlayer().getDisplayName()))));
+        String format = ChatColorUtils.toHex(ChatColorUtils.color(PlaceholderAPI.setPlaceholders(event.getPlayer(), BeeCore.getInstance().getConf().getString("format", "%luckperms_prefix%{display_name} %luckperms_suffix% &#1883C4» &#7D878C{message}").replace("{name}", event.getPlayer().getName()).replace("{display_name}" ,event.getPlayer().getDisplayName()))));
         event.setFormat(format.replace("{message}", event.getMessage().replace("%", "‰")));
     }
 }
