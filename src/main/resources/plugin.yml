@@ -3,6 +3,7 @@ version: '${project.version}'
 main: net.acticraft.plugin.beecore.BeeCore
 api-version: 1.18
 authors: [ PxLib ]
+softdepend: [PlaceholderAPI]
 commands:
   fly:
   gmc:
