@@ -1,1 +1,2 @@
+#Chat Format || Support Placeholders PLACEHOLDERAPI
 format: "%luckperms_prefix%{display_name} %luckperms_suffix% &#1883C4» &#7D878C{message}"
