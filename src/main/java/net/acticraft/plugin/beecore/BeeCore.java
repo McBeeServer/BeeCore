@@ -22,7 +22,7 @@ public final class BeeCore extends JavaPlugin {
         instance = this;
         Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[]=================[" + ChatColor.of("#44eeff") + ChatColor.BOLD + "BeeCore" + ChatColor.GRAY + "]=================[]");
         Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of("#406266") + "       Made by:" + ChatColor.of("#1da7b6") + " PxLib");
-        Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of("#406266") + "       Discord:" + ChatColor.of("#1da7b6") + " PxLib#0001");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of("#406266") + "       Discord:" + ChatColor.of("#1da7b6") + " discord.gg/acticraft");
         Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[]==================================================[]");
 
         // Load Commands
