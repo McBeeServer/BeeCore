@@ -6,7 +6,7 @@
 
     <groupId>net.acticraft.plugin</groupId>
     <artifactId>BeeCore</artifactId>
-    <version>0.0.02</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>BeeCore</name>
@@ -83,13 +83,6 @@
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
             <version>2.11.1</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>net.acticraft.plugin.api</groupId>
-            <artifactId>BeeAPI</artifactId>
-            <version>1.0.4</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
