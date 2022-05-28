@@ -13,9 +13,9 @@ public class SpectatorCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {
             Player p = (Player) sender;
-            if (p.hasPermission("acs_staff_gamemode")) {
+            if (p.hasPermission("bee.staff.admin")) {
                 p.setGameMode(GameMode.SPECTATOR);
-                p.sendMessage(ChatColor.of("#94A8E2") + "You changed your gamemode to: " + ChatColor.of("#2255DF") + "SPECTATOR");
+                p.sendMessage(ChatColor.of("#FFBF00") + "You changed your gamemode to: " + ChatColor.of("#F28C28") + "Spectator");
             }else{
                 sender.sendMessage(ChatColor.of("#2255DF") + "You do not have permission to execute this command!");
             }

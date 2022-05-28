@@ -12,9 +12,9 @@ public class DayCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {
             Player p = (Player) sender;
-            if (p.hasPermission("acs_staff_fly")) {
+            if (p.hasPermission("bee.staff.admin")) {
                 p.getWorld().setTime(500);
-                p.sendMessage(ChatColor.of("#94A8E2") + "World time has been changed to " + ChatColor.of("#2255DF") + "DAY");
+                p.sendMessage(ChatColor.of("#FFBF00") + "World time has been changed to " + ChatColor.of("#F28C28") + "Day");
             }
         }else{
             sender.sendMessage(ChatColor.of("#2255DF") + "You do not have permission to execute this command!");

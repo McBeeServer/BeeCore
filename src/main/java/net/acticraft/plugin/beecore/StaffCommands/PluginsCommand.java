@@ -12,10 +12,10 @@ public class PluginsCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-            if (sender.hasPermission("acs_staff_plugins")) {
-                sender.sendMessage(ChatColor.of("#2255DF") + "Plugins:");
+            if (sender.hasPermission("bee.dev")) {
+                sender.sendMessage(ChatColor.of("#FFBF00") + "Plugins:");
                 for (Plugin plugin : Bukkit.getPluginManager().getPlugins()) {
-                    sender.sendMessage(ChatColor.of("#94A8E2") + plugin.getName() + " " + ChatColor.GRAY + plugin.getDescription().getVersion());
+                    sender.sendMessage(ChatColor.of("#FAD5A5") + plugin.getName() + " " + ChatColor.GRAY + plugin.getDescription().getVersion());
                 }
                 return true;
             } else {
