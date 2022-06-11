@@ -12,7 +12,7 @@ public class FlyCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {
             Player p = (Player) sender;
-            if (p.hasPermission("bee.staff.admin")) {
+            if (p.hasPermission("bee.staff.fly")) {
                 if(p.isFlying()){
                     p.setAllowFlight(false);
                     p.sendMessage(ChatColor.of("#FFBF00") + "You can no longer " + ChatColor.of("#F28C28") + "Fly");
