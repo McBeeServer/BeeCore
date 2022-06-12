@@ -17,7 +17,7 @@ public class ChatColorUtils {
         while (matcher.find()) {
             String color = message.substring(matcher.start(), matcher.end());
             if(color.matches("(?<!\\\\)(&#[a-fA-F0-9]{6})")){
-                message = message.replace(color, net.md_5.bungee.api.ChatColor.of(color.replace("&", "")).toString());
+                message = message.replace(color, ChatColor.of(color.replace("&", "")).toString());
             }
             matcher = hex_pattern.matcher(message);
         }
