@@ -74,6 +74,10 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+        <repository>
+            <id>HoneyAPI</id>
+            <url>https://repo.metaxcrew.com/#browse/browse:maven-public:fun%2Fmcbee%2Fapi%2FHoneyAPI</url>
+        </repository>
 
     </repositories>
 
@@ -96,6 +100,10 @@
             <version>0.3.5</version>
             <scope>provided</scope>
         </dependency>
-
+        <dependency>
+            <groupId>fun.mcbee.api</groupId>
+            <artifactId>HoneyAPI</artifactId>
+            <version>1.0.3</version>
+        </dependency>
     </dependencies>
 </project>
