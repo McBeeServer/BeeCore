@@ -24,6 +24,7 @@ public class PunishGUI implements CommandExecutor, Listener {
             ItemStack kick = new ItemStack(Material.GREEN_CONCRETE);
             ItemStack banip = new ItemStack(Material.PLAYER_HEAD);
             ItemStack banuuid = new ItemStack(Material.YELLOW_STAINED_GLASS_PANE);
+            ItemStack banipuuid = new ItemStack(Material.ORANGE_CONCRETE);
         }
 
 
